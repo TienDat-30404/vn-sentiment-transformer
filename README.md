@@ -11,11 +11,12 @@ Dự án Xây dựng Trợ lý Phân loại Cảm xúc Tiếng Việt tập trun
 II. Cấu trúc Source Code
 Mã nguồn được tổ chức thành các file chính, mỗi file đảm nhiệm một chức năng cụ thể:
 
-File Name                   Chức năng
-main.py                     Khởi chạy ứng dụng web Streamlit, quản lý giao diện, và tải mô hình Transformer.
-nlp_processor.py            Chứa logic tiền xử lý văn bản và logic gọi mô hình Transformer để phân loại.
-database.py                 Quản lý kết nối và thao tác với cơ sở dữ liệu SQLite, bao gồm hàm lưu trữ an toàn.
-requirements.txt            Danh sách tất cả các thư viện Python cần thiết cho dự án.
+| File Name | Chức năng |
+| :--- | :--- |
+| **main.py** | Khởi chạy ứng dụng web Streamlit, quản lý giao diện, và tải mô hình Transformer. |
+| **nlp_processor.py** | Chứa logic tiền xử lý văn bản và logic gọi mô hình Transformer để phân loại. |
+| **database.py** | Quản lý kết nối và thao tác với cơ sở dữ liệu SQLite, bao gồm hàm lưu trữ an toàn. |
+| **requirements.txt** | Danh sách tất cả các thư viện Python cần thiết cho dự án. |
 
 III. Yêu cầu và Hướng dẫn Chạy
 1. Yêu cầu Môi trường
